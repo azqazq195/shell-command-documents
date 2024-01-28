@@ -15,7 +15,7 @@ Syntax:
 mkdir [OPTION]... DIRECTORY...
 ```
 
-### Options {id="options_mkdir"}
+### Options {id="options-mkdir"}
 
 긴 옵션에 대한 필수 인수는 짧은 옵션에도 필수입니다.
 
@@ -40,6 +40,12 @@ mkdir [OPTION]... DIRECTORY...
 --version
 : 버전 정보를 출력하고 종료합니다.
 
+### Example {id="example-mkdir"}
+
+```Shell
+mkdir folder-name
+mkdir -p ./parent/child-name
+```
 
 <seealso>
     <category ref="official-documents">
