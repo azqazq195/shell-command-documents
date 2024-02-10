@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Documents"
-                 start-page="Default-topic.md">
+                  name="Documents"
+                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md"/>
     <toc-element topic="Starter.md"/>
@@ -13,7 +13,8 @@
     <toc-element topic="Reference.md"/>
     <toc-element topic="Tutorial.md"/>
     <toc-element topic="Command.md">
-        <toc-element topic="Shell-Commands.md"/>
+        <toc-element topic="mkdir.md"/>
+        <toc-element topic="rm.md"/>
     </toc-element>
     <toc-element topic="Section-Starting-Page.topic"/>
 </instance-profile>
